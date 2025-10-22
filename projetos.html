@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma ONG - Projetos</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/lucide-static@latest/font/lucide.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 data-aos="zoom-in">Projetos em Destaque</h1>
+    <p data-aos="fade-up">Conheça nossas iniciativas que transformam vidas.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="projetos.html">Projetos</a>
+    <a href="cadastro.html">Cadastro</a>
+  </nav>
+
+  <section class="section">
+    <div class="card-grid">
+      <div class="card" data-aos="flip-up">
+        <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=800" alt="Educação Digital" />
+        <div class="card-content">
+          <h3><i class="lucide lucide-laptop"></i>Educação Digital</h3>
+          <p>Capacitação em ferramentas tecnológicas para inclusão digital de jovens e adultos.</p>
+        </div>
+      </div>
+      <div class="card" data-aos="flip-up" data-aos-delay="150">
+        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800" alt="Agricultura Urbana" />
+        <div class="card-content">
+          <h3><i class="lucide lucide-sprout"></i>Agricultura Urbana</h3>
+          <p>Hortas comunitárias sustentáveis para alimentação saudável e geração de renda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Plataforma ONG - Desenvolvido com ♥ por alunos de Front-End</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200, once: true, offset: 120 });
+  </script>
+</body>
+</html>
